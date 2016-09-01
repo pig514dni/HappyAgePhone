@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0C9C4C1D71894C006B84AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9C4B1D71894C006B84AE /* main.m */; };
+		DB0C9C4F1D71894C006B84AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9C4E1D71894C006B84AE /* AppDelegate.m */; };
+		DB0C9C5A1D71894C006B84AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C9C581D71894C006B84AE /* LaunchScreen.storyboard */; };
+		DB0C9C631D718A75006B84AE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9C621D718A75006B84AE /* TableViewController.m */; };
+		DB0C9C651D718ED1006B84AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0C9C641D718ED1006B84AE /* Main.storyboard */; };
+		DB0C9C681D71B4A7006B84AE /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9C671D71B4A7006B84AE /* TableViewCell.m */; };
+		DB0C9C6B1D71BD6A006B84AE /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0C9C6A1D71BD6A006B84AE /* AddViewController.m */; };
+		DB27E5F21D752C9700F7585B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB27E5F11D752C9700F7585B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB0C9C471D71894C006B84AE /* HappyAgePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyAgePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0C9C4B1D71894C006B84AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB0C9C4D1D71894C006B84AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB0C9C4E1D71894C006B84AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB0C9C591D71894C006B84AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB0C9C5B1D71894C006B84AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0C9C611D718A75006B84AE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DB0C9C621D718A75006B84AE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DB0C9C641D718ED1006B84AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB0C9C661D71B4A7006B84AE /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DB0C9C671D71B4A7006B84AE /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DB0C9C691D71BD6A006B84AE /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		DB0C9C6A1D71BD6A006B84AE /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		DB27E5F11D752C9700F7585B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB0C9C441D71894C006B84AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB0C9C3E1D71894C006B84AE = {
+			isa = PBXGroup;
+			children = (
+				DB0C9C491D71894C006B84AE /* HappyAgePhone */,
+				DB0C9C481D71894C006B84AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB0C9C481D71894C006B84AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9C471D71894C006B84AE /* HappyAgePhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB0C9C491D71894C006B84AE /* HappyAgePhone */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9C4D1D71894C006B84AE /* AppDelegate.h */,
+				DB0C9C4E1D71894C006B84AE /* AppDelegate.m */,
+				DB0C9C611D718A75006B84AE /* TableViewController.h */,
+				DB0C9C621D718A75006B84AE /* TableViewController.m */,
+				DB0C9C661D71B4A7006B84AE /* TableViewCell.h */,
+				DB0C9C671D71B4A7006B84AE /* TableViewCell.m */,
+				DB0C9C691D71BD6A006B84AE /* AddViewController.h */,
+				DB0C9C6A1D71BD6A006B84AE /* AddViewController.m */,
+				DB27E5F11D752C9700F7585B /* Assets.xcassets */,
+				DB0C9C641D718ED1006B84AE /* Main.storyboard */,
+				DB0C9C581D71894C006B84AE /* LaunchScreen.storyboard */,
+				DB0C9C5B1D71894C006B84AE /* Info.plist */,
+				DB0C9C4A1D71894C006B84AE /* Supporting Files */,
+			);
+			path = HappyAgePhone;
+			sourceTree = "<group>";
+		};
+		DB0C9C4A1D71894C006B84AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB0C9C4B1D71894C006B84AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB0C9C461D71894C006B84AE /* HappyAgePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB0C9C5E1D71894C006B84AE /* Build configuration list for PBXNativeTarget "HappyAgePhone" */;
+			buildPhases = (
+				DB0C9C431D71894C006B84AE /* Sources */,
+				DB0C9C441D71894C006B84AE /* Frameworks */,
+				DB0C9C451D71894C006B84AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyAgePhone;
+			productName = HappyAgePhone;
+			productReference = DB0C9C471D71894C006B84AE /* HappyAgePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0C9C3F1D71894C006B84AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "張峻綸";
+				TargetAttributes = {
+					DB0C9C461D71894C006B84AE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C8533NF3S2;
+					};
+				};
+			};
+			buildConfigurationList = DB0C9C421D71894C006B84AE /* Build configuration list for PBXProject "HappyAgePhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB0C9C3E1D71894C006B84AE;
+			productRefGroup = DB0C9C481D71894C006B84AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB0C9C461D71894C006B84AE /* HappyAgePhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB0C9C451D71894C006B84AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0C9C651D718ED1006B84AE /* Main.storyboard in Resources */,
+				DB27E5F21D752C9700F7585B /* Assets.xcassets in Resources */,
+				DB0C9C5A1D71894C006B84AE /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB0C9C431D71894C006B84AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0C9C6B1D71BD6A006B84AE /* AddViewController.m in Sources */,
+				DB0C9C4F1D71894C006B84AE /* AppDelegate.m in Sources */,
+				DB0C9C681D71B4A7006B84AE /* TableViewCell.m in Sources */,
+				DB0C9C4C1D71894C006B84AE /* main.m in Sources */,
+				DB0C9C631D718A75006B84AE /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB0C9C581D71894C006B84AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB0C9C591D71894C006B84AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB0C9C5C1D71894C006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB0C9C5D1D71894C006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB0C9C5F1D71894C006B84AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HappyAgePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.HappyAgeTelephoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB0C9C601D71894C006B84AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HappyAgePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.HappyAgeTelephoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB0C9C421D71894C006B84AE /* Build configuration list for PBXProject "HappyAgePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0C9C5C1D71894C006B84AE /* Debug */,
+				DB0C9C5D1D71894C006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB0C9C5E1D71894C006B84AE /* Build configuration list for PBXNativeTarget "HappyAgePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0C9C5F1D71894C006B84AE /* Debug */,
+				DB0C9C601D71894C006B84AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0C9C3F1D71894C006B84AE /* Project object */;
+}
